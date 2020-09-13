@@ -1,4 +1,4 @@
-const C4 = new Audio("piano_sound/C4.mp3");
+const C4 = new Audio("C4.mp3");
 const Db4 = new Audio("piano_sound/Db4.mp3");
 const D4 = new Audio("piano_sound/D4.mp3");
 const Eb4 = new Audio("piano_sound/Eb4.mp3");
