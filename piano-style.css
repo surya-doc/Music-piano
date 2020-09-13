@@ -11,11 +11,28 @@ body{
     align-items: center;
     background-image: linear-gradient(#2a3d66, #5d54a4, #9d65c9);
 }
+/* 
+.text{
+    position: relative;
+    width: 200px;
+    text-align: center;
+    color: #FFF;
+    left: 28%;
+}
+
+.text p{
+    font-size: 40px;
+    font-family: papyrus, Brush Script MT;
+} */
 
 .piano{
     display: flex;
     position: relative;
     margin-left: 4px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wk{
@@ -23,10 +40,13 @@ body{
     height: 240px;
     background-color: #FFF;
     border: 1px solid grey;
-    border-radius: 3px 3px 18px 18px;
+    border-radius: 8px 8px 8px 8px;
     margin-left: -4px;
+    font-weight: 700;
     outline: none;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 200px;
 }
 
 .wk:active{
@@ -40,9 +60,11 @@ body{
     /* left: 1px; */
     background-image: linear-gradient(#000000, #303030);
     border: 2px solid #000000;
-    border-radius: 0 0 4px 4px;
+    border-radius: 4px 4px 14px 4px;
     outline: none;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #FFF;
 }
 
 .bk:active{
@@ -77,11 +99,12 @@ body{
     left: 820px;
 } */
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 700px)
 {
     .wk{
         width: 40px;
         height: 180px;
+        padding-top: 160px;
     }
 
     .bk{
