@@ -112,3 +112,16 @@ body{
         height: 140px;
     }
 }
+
+@media only screen and (max-width: 300px){
+    .wk{
+        width: 22px;
+        height: 110px;
+        padding-top: 160px;
+    }
+
+    .bk{
+        width: 9px;
+        height: 110px;
+    }
+}
