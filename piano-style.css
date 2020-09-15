@@ -7,10 +7,12 @@ body{
     padding: 0;
     height: 100%;
     text-align: center;
+    color: #FFF;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     background-image: linear-gradient(#2a3d66, #5d54a4, #9d65c9);
+    background: url('piano-image1.png');
 }
 /* 
 .text{
@@ -30,7 +32,7 @@ h1{
     width: 100%;
 }
 
-.piano{
+/* .piano{
     display: flex;
     position: relative;
     margin-left: 4px;
@@ -38,7 +40,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .wk{
     width: 60px;
