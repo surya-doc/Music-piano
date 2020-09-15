@@ -113,15 +113,15 @@ body{
     }
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 400px){
     .wk{
         width: 22px;
-        height: 110px;
+        height: 180px;
         padding-top: 160px;
     }
 
     .bk{
         width: 9px;
-        height: 110px;
+        height: 140px;
     }
 }
